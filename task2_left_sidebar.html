@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="layout-left">
+    <div class="grid-container">
+        <header class="header">
+            <div class="logo">Erba<span>Portfolio</span></div>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <aside class="sidebar" id="about">
+            <h2>About</h2>
+            <p>Hello! I am a 2nd-year student at Astana IT University, specializing in web development and creating commercial websites.</p>
+            <p>Skills: HTML, CSS, JavaScript, React, Python.</p>
+        </aside>
+        <main class="main-content">
+            <section id="projects" class="projects-section">
+                <h2>My Projects</h2>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./images/smart.png" alt="SMART Аренда">
+                        <h3>SMART Rent</h3>
+                        <p>Real estate rental service (apartments, houses, rooms) across Kazakhstan. Quick communication via WhatsApp and Instagram.</p>
+                        <button onclick="window.open('https://smarts-nine.vercel.app/', '_blank')">View Website</button>
+                    </div>
+                    <div class="card">
+                        <img src="./images/giggles.png" alt="Giggles">
+                        <h3>Giggles</h3>
+                        <p>Landing page for a universal wet wipes brand. Commercial project built with React/Vite.</p>
+                        <button onclick="window.open('https://giggles-beta.vercel.app/', '_blank')">View Website</button>
+                    </div>
+                    <div class="card">
+                        <img src="./images/gpservice.png" alt="GP Service">
+                        <h3>GP Service Shymkent</h3>
+                        <p>Comprehensive moving and rigging services. B2B and B2C logistics platform.</p>
+                        <button onclick="window.open('https://gp-service-zeta.vercel.app/', '_blank')">View Website</button>
+                    </div>
+                    <div class="card">
+                        <img src="./images/produp.png" alt="PRODUP">
+                        <h3>PRODUP</h3>
+                        <p>Creative agency website (in development). AI, Web, Content, Marketing, and Branding.</p>
+                        <button onclick="window.open('https://club-prototype-psi.vercel.app/en/services', '_blank')">View Website</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="gallery" class="gallery-section">
+                <h2>Tech & Platforms Gallery</h2>
+                <div class="gallery-container">
+                    <div class="gallery-item"><img src="./images/html5.svg" alt="HTML5"><div class="caption">HTML5</div></div>
+                    <div class="gallery-item"><img src="./images/css3.svg" alt="CSS3"><div class="caption">CSS3</div></div>
+                    <div class="gallery-item"><img src="./images/javascript.svg" alt="JavaScript"><div class="caption">JavaScript</div></div>
+                    <div class="gallery-item"><img src="./images/typescript.svg" alt="TypeScript"><div class="caption">TypeScript</div></div>
+                    <div class="gallery-item"><img src="./images/react.svg" alt="React"><div class="caption">React</div></div>
+                    <div class="gallery-item"><img src="./images/nextjs.svg" alt="Next.js"><div class="caption">Next.js</div></div>
+                    <div class="gallery-item"><img src="./images/python.svg" alt="Python"><div class="caption">Python</div></div>
+                    <div class="gallery-item"><img src="./images/figma.svg" alt="Figma"><div class="caption">Figma</div></div>
+                    <div class="gallery-item"><img src="./images/github.svg" alt="GitHub"><div class="caption">GitHub</div></div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer" id="contact">
+            <p>&copy; 2026 Berdalin Yerbol - Astana IT University</p>
+        </footer>
+    </div>
+</body>
+</html>
